@@ -1,0 +1,41 @@
+body {
+    font-family: trebuchet ms, sans-serif;
+    background-attachment: scroll;
+    background-size: cover;
+
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tela{
+    background-color: rgba(32, 30, 48, 0.781);
+}
+
+#topo{
+    background-color: rgba(16, 12, 26, 0.863);
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#linguica{
+    padding: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.botao{
+    border: 3px solid rgba(31, 26, 26, 0.712);
+    background-color: rgba(31, 26, 26, 0.712);
+    border-radius: 30%;
+    width: fit-content;
+    padding: 2%;
+}
