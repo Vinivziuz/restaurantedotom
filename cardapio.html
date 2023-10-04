@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Pizzaria Potência</title>
+    <nav>
+        <div class="logo"> <!-- Título na esquerda -->
+            <a href="index.html">
+                <h1>Pizzaria Potência</h1>
+            </a>
+        </div>
+        <button>&#9776;</button>
+        <ul><!-- Opções clicáveis com links pra outras páginas -->
+            <li>
+                <a href="montar.html">
+                    <p>Monte sua pizza</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Cardápio</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Combo do dia</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html  #bebida">
+                    <p>Bebidas</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html #sobremesa">
+                    <p>Sobremesas</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</head>
+
+<body background="img/bg.png">
+    <div class="tela" id="linguica">
+        <b style="padding-right: 5%;">
+            <H2>Combo do dia:</H2><br>
+            <form name="pedido">
+                <fieldset style="width: 35%;">
+                    Pizza de 4 queijos, Coca-cola 600ml e Sundae
+                    <h3>R$ 70,00</h3> <input type="number" name="queijo" id="queijo" autocomplete="off" />
+                </fieldset>
+                <div style="float: left;">
+                    <h2>Cardápio:</h2>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzpeperoni.png" width="100%">
+                        Pizza de Pepperoni
+                        <h3>R$ 55,00</h3> <input type="number" name="peperoni" id="peperoni" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzportuguesa.png" width="100%">
+                        Pizza Portuguesa
+                        <h3>R$ 70,00</h3> <input type="number" name="pt" id="pt" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzitaliana.png" width="100%">
+                        Pizza Italiana
+                        <h3>R$ 55,00</h3> <input type="number" name="italiana" id="italiana" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzprestigio.png" width="100%">
+                        Pizza de Prestígio
+                        <h3>R$ 60,00</h3> <input type="number" name="prestigio" id="prestigio" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzfrangocatupiry.png" width="100%">
+                        Pizza de Frango c/ Catupiry
+                        <h3>R$ 55,00</h3> <input type="number" name="fcc" id="fcc" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzcarnedesfiada.png" width="100%">
+                        Pizza de Carne de Sol desfiada
+                        <h3>R$ 65,00</h3> <input type="number" name="csd" id="csd" autocomplete="off" />
+                    </fieldset><br>
+                    <fieldset style="width: 35%; margin-right: 500px;">
+                        <img src="img/pzmoda.png" width="100%">
+                        Pizza a Moda
+                        <h3>R$ 65,00</h3> <input type="number" name="moda" id="moda" autocomplete="off" />
+                    </fieldset><br>
+                </div>
+                <a name="bebida"></a>
+                <div style="float: left; margin-right: 10%;"> 
+                <h2>Bebidas</h2>
+                <fieldset style="width: 20%;">
+                    Refrigerante 1 Litro
+                    <h3>R$ 7,00</h3> <input type="number" name="1l" id="1l" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Refrigerante 1,5 Litros
+                    <h3>R$ 8,00</h3> <input type="number" name="15l" id="15l" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Refrigerante 2 Litros
+                    <h3>R$ 10,00</h3> <input type="number" name="2l" id="2l" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Refrigerante Lata
+                    <h3>R$ 5,00</h3> <input type="number" name="lt" id="lt" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Refrigerante 600ml
+                    <h3>R$ 6,00</h3> <input type="number" name="6ml" id="6ml" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Água
+                    <h3>R$ 2,50</h3> <input type="number" name="agua" id="agua" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Cerveja Long Neck
+                    <h3>R$ 10,00</h3> <input type="number" name="cvj" id="cvj" autocomplete="off" />
+                </fieldset><br>
+                </div>
+                <a name="sobremesa"></a>
+                <h2>Sobremesas</h2>
+                <fieldset style="width: 20%;">
+                    Pote de Sorvete
+                    <h3>R$ 23,99</h3> <input type="number" name="Sorvete" id="Sorvete" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Cookie Gigante
+                    <h3>R$ 9,00</h3> <input type="number" name="cgg" id="cgg" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Profitelores Box
+                    <h3>R$ 25,00</h3> <input type="number" name="pb" id="pb" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Mini profiteroles box
+                    <h3>R$ 15,00</h3> <input type="number" name="mpb" id="mpb" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Sundae
+                    <h3>R$ 6,50</h3> <input type="number" name="snd" id="snd" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Cheese Cake
+                    <h3>R$ 30,50</h3> <input type="number" name="cc" id="cc" autocomplete="off" />
+                </fieldset><br>
+                <fieldset style="width: 20%;">
+                    Petit Gateau de Chocolate
+                    <h3>R$ 32,00</h3> <input type="number" name="petit" id="petit" autocomplete="off" />
+                </fieldset><br>
+            </form>
+        </b>
+        <b style="padding-right: 5%;">
+            <h2><b>Finalizar pedido >></b></h2>
+            *Botão Fictício
+        </b>
+        <br><br>
+    </div>
+
+</body>
+
+</html>

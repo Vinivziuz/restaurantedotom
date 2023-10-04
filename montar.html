@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt br">
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Pizzaria Potência</title>
+    <nav>
+        <div class="logo"> <!-- Título na esquerda -->
+            <a href="index.html">
+                <h1>Pizzaria Potência</h1>
+            </a>
+        </div>
+        <button>&#9776;</button>
+        <ul><!-- Opções clicáveis com links pra outras páginas -->
+            <li>
+                <a href="montar.html">
+                    <p>Monte sua pizza</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Cardápio</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Combo do dia</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Bebidas</p>
+                </a>
+            </li>
+            <li>
+                <a href="cardapio.html">
+                    <p>Sobremesas</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</head>
+
+<body background="img/bg.png">
+    <div class="tela" id="linguica">
+        <b style="padding-right: 5%;">
+            <form name="montagem">
+                <fieldset class="montagem">
+                    <legend>Monte sua Pizza!</legend>
+                    <div style="padding: 3%; float: left;">
+                        <h2>Cada ingrediente adiciona 8,50 !</h2>
+                        Mussarela
+                        <input type="checkbox" name="Mussarela" id="Mussarela" autocomplete="off" /><br><br>
+                        Calabresa
+                        <input type="checkbox" name="Calabresa" id="Calabresa" autocomplete="off" /><br><br>
+                        Cebola
+                        <input type="checkbox" name="Cebola" id="Cebola" autocomplete="off" /><br><br>
+                        Bacon
+                        <input type="checkbox" name="Bacon" id="Bacon" autocomplete="off" /><br><br>
+                        Provolone
+                        <input type="checkbox" name="Provolone" id="Provolone" autocomplete="off" /><br><br>
+                        Parmesão
+                        <input type="checkbox" name="Parmesão" id="Parmesão" autocomplete="off" /><br><br>
+                        Palmito
+                        <input type="checkbox" name="Palmito" id="Palmito" autocomplete="off" /><br><br>
+                        Azeitona
+                        <input type="checkbox" name="Azeitona" id="Azeitona" autocomplete="off" /><br><br>
+                        Tomate
+                        <input type="checkbox" name="Tomate" id="Tomate" autocomplete="off" /><br><br>
+                        Carne de sol desfiada
+                        <input type="checkbox" name="carnesol" id="carnesol" autocomplete="off" /><br><br>
+                        Pimentão
+                        <input type="checkbox" name="Pimentão" id="Pimentão" autocomplete="off" /><br><br>
+                        Catupiry
+                        <input type="checkbox" name="Catupiry" id="Catupiry" autocomplete="off" /><br><br>
+                        Frango
+                        <input type="checkbox" name="Frango" id="Frango" autocomplete="off" /><br><br>
+                        Ovo
+                        <input type="checkbox" name="Ovo" id="Ovo" autocomplete="off" /><br><br>
+                        Banana
+                        <input type="checkbox" name="Banana" id="Banana" autocomplete="off" /><br><br>
+                        Canela
+                        <input type="checkbox" name="Canela" id="Canela" autocomplete="off" /><br><br>
+                        Abacaxi
+                        <input type="checkbox" name="Abacaxi" id="Abacaxi" autocomplete="off" /><br><br>
+                        Molho de tomate
+                        <input type="checkbox" name="Molho" id="Molho" autocomplete="off" /><br><br>
+                    </div>
+                    <div style="padding: 3%; width: 50%;">
+                        <fieldset class="montagem">
+                            <h3>Tamanho:</h3>
+                            <label for="pequena"></label>
+                            Pequena:
+                            <input type="radio" value="1" name="tamanho"><br><br>
+                            <label for="media"></label>
+                            Média:
+                            <input type="radio" value="2" name="tamanho"><br><br>
+                            <label for="grande"></label>
+                            Grande:
+                            <input type="radio" value="3" name="tamanho">
+                        </fieldset>
+                    </div>
+                    <div style="padding: 3%; width: 60%;">
+                        <fieldset class="montagem">
+                            <h3>Borda:</h3>
+                            Sem borda:
+                            <input type="radio" value="1" name="borda"><br><br>
+                            Presunto e Queijo:
+                            <input type="radio" value="1" name="borda"><br><br>
+                            Chocolate:
+                            <input type="radio" value="1" name="borda"><br><br>
+                            Cheddar:
+                            <input type="radio" value="1" name="borda"><br><br>
+                            Catupiry:
+                            <input type="radio" value="1" name="borda">
+                        </fieldset>
+                    </div>
+                    <div style="padding: 3%; width: 80%;">
+                        <fieldset class="montagem">
+                            <legend>Entrega:</legend>
+                            <h3>Rua:</h3>
+                            <input type="text" name="rua" id="rua" autocomplete="off" size="30" required=""
+                                placeholder="Ex.: Rua Maria Silva" />
+                            <h3>Bairro:</h3>
+                            <input type="text" name="brr" id="brr" autocomplete="off" size="15" required=""
+                                placeholder="Ex.: Santa Cecilia" />
+                            <h3>Número:</h3>
+                            <input type="text" name="num" id="num" autocomplete="off" size="5" required=""
+                                placeholder="Ex.: 42" />
+                            <h3>Complemento:</h3>
+                            <input type="text" name="num" id="num" autocomplete="off" size="10" required=""
+                                placeholder="Ex.: aptm. 105" />
+                        </fieldset>
+                    </div>
+                    <div style="padding: 3%; width: 40%; float: left;">
+                        <fieldset class="montagem">
+                            <legend>Pagamento:</legend>
+                            <h3>Opções de Pagamento:</h3>
+                            <select id="pag" name="pag">
+                                <option value="">-Selecione-</option>
+                                <option value="CD">Cartão Débito</option>
+                                <option value="CC">Cartão Crédito</option>
+                                <option value="DN">Dinheiro</option>
+                                <option value="PX">Pix</option>
+                            </select><br>
+                            <h4>Cpf na nota?</h4>
+                            <input type="text" name="cpf" id="cpf" autocomplete="off" size="15" required=""
+                                placeholder="( Opcional )" />
+                        </fieldset>
+                    </div>
+                    <br>
+                    <img src="img/obg.png" style="float: right; margin-left: 2%;" width="30%">
+                    <fieldset style="border-color: rgb(185, 124, 74); margin: 2%;">
+                        <p align="center">
+                            <input type="submit" name="FinalizarPedido" value="Finalizar o Pedido">
+                        </p>
+                </fieldset>
+                </div>
+                </fieldset>
+            </form>
+        </b>
+    </div>
+    </form>
+</body>
+
+</html>
