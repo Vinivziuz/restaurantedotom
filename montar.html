@@ -47,7 +47,7 @@
         <b style="padding-right: 5%;">
             <form name="montagem">
                 <fieldset class="montagem">
-                    <legend>Monte sua Pizza!</legend>
+                    <legend style="border: solid 2px rgb(190, 150, 98); border-radius: 5px;"><h2>Monte sua Pizza!</h2></legend>
                     <div style="padding: 3%; float: left;">
                         <h2>Cada ingrediente adiciona 8,50 !</h2>
                         Mussarela
@@ -118,26 +118,26 @@
                     </div>
                     <div style="padding: 3%; width: 80%;">
                         <fieldset class="montagem">
-                            <legend>Entrega:</legend>
+                            <legend style="border: solid 2px rgb(190, 150, 98); border-radius: 5px;">Entrega:</legend>
                             <h3>Rua:</h3>
                             <input type="text" name="rua" id="rua" autocomplete="off" size="30" required=""
-                                placeholder="Ex.: Rua Maria Silva" />
+                                placeholder="Ex.: Rua Maria Silva" class="caixa"/>
                             <h3>Bairro:</h3>
                             <input type="text" name="brr" id="brr" autocomplete="off" size="15" required=""
-                                placeholder="Ex.: Santa Cecilia" />
+                                placeholder="Ex.: Santa Cecilia" class="caixa"/>
                             <h3>Número:</h3>
                             <input type="text" name="num" id="num" autocomplete="off" size="5" required=""
-                                placeholder="Ex.: 42" />
+                                placeholder="Ex.: 42" class="caixa"/>
                             <h3>Complemento:</h3>
                             <input type="text" name="num" id="num" autocomplete="off" size="10" required=""
-                                placeholder="Ex.: aptm. 105" />
+                                placeholder="Ex.: aptm. 105" class="caixa"/>
                         </fieldset>
                     </div>
                     <div style="padding: 3%; width: 40%; float: left;">
                         <fieldset class="montagem">
-                            <legend>Pagamento:</legend>
+                            <legend style="border: solid 2px rgb(190, 150, 98); border-radius: 5px;">Pagamento:</legend>
                             <h3>Opções de Pagamento:</h3>
-                            <select id="pag" name="pag">
+                            <select id="pag" name="pag" class="caixa">
                                 <option value="">-Selecione-</option>
                                 <option value="CD">Cartão Débito</option>
                                 <option value="CC">Cartão Crédito</option>
@@ -146,14 +146,14 @@
                             </select><br>
                             <h4>Cpf na nota?</h4>
                             <input type="text" name="cpf" id="cpf" autocomplete="off" size="15" required=""
-                                placeholder="( Opcional )" />
+                                placeholder="( Opcional )" class="caixa"/>
                         </fieldset>
                     </div>
                     <br>
                     <img src="img/obg.png" style="float: right; margin-left: 2%;" width="30%">
-                    <fieldset style="border-color: rgb(185, 124, 74); margin: 2%;">
+                    <fieldset style="border-color: rgb(185, 124, 74); margin: 2%; border-radius: 20px;">
                         <p align="center">
-                            <input type="submit" name="FinalizarPedido" value="Finalizar o Pedido">
+                            <input type="submit" name="FinalizarPedido" value="Finalizar o Pedido" class="caixa">
                         </p>
                 </fieldset>
                 </div>
