@@ -130,3 +130,8 @@ button:focus ~ul{
     border-style: dotted;
     border-color: rgb(190, 150, 98);
 }
+
+.caixa{
+    border-radius:4px
+}
+
